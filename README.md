@@ -49,6 +49,7 @@ Design rationale
 ### Usage
 Requirements
 - Python 3.10+
+
 Run the analyzer
 ```
 python analyzer.py examples/sample_email.txt
@@ -66,10 +67,15 @@ Findings:
 ### Risk Scoring Model
 Each detection rule contributes a configurable number of points to the total risk score.
 The score represents relative risk, not certainty of malicious intent.
+
 Example weighting:
+
 <ins>Indicator	    Points </ins>
+
 Urgent language	    2
+
 IP address in URL	3
+
 Unknown domain	    2
 
 The scoring model is intentionally simple and transparent.
