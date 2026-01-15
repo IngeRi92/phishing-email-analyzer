@@ -1,0 +1,11 @@
+Dear user,
+
+Your account will be suspended unless you verify immediately.
+
+Click here:
+http://secure-login-account.ru/verify
+http://192.168.1.100/login
+
+
+Regards,
+Security Team
